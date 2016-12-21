@@ -6,7 +6,7 @@
 
 | HTTP |  Routes  | Content-Type | Methods      |
 |------|----------|:------------:|:------------:|
-| GET  | /list    | JSON         | [getList()](#getList)    |
+| GET  | /list    | JSON         | [getList()](#getlist())    |
 | GET  | /details | JSON         | getDetails() | 
 
 ### Daily schedule
@@ -27,4 +27,4 @@
 
 ## Methods
 
-### getList
+### getList()
