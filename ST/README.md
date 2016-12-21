@@ -28,6 +28,19 @@
 ## Methods
 
 ### getList()
+
+#### Response
+
+```
+Array[n]
+ ...: {
+       className: '',
+       groupName: '',
+       semester: 1|2
+      }
+       
+```
+
 ### getDetails()
 ### getDay()
 ### getCurrentDay()
