@@ -4,22 +4,27 @@
 
 ### List all class and groups
 
-| HTTP Methods |  Routes  | Content-Type |
-|--------------|----------|:------------:|
-| GET          | /list    | JSON         |
-| GET          | /details | JSON         |
+| HTTP |  Routes  | Content-Type | Methods      |
+|------|----------|:------------:|:------------:|
+| GET  | /list    | JSON         | [getList()](#getList)    |
+| GET  | /details | JSON         | getDetails() | 
 
 ### Daily schedule
 
-| HTTP Methods |              Routes             | Content-Type |
-|--------------|---------------------------------|:------------:|
-| GET          | /day/:class/:name/:YYYY/:MM/:DD | JSON         |
-| GET          | /day/:class/:name/              | JSON         |
+| HTTP | Routes                          | Content-Type | Methods         |
+|------|---------------------------------|:------------:|:---------------:|
+| GET  | /day/:class/:name/:YYYY/:MM/:DD | JSON         | getDay()        |
+| GET  | /day/:class/:name/              | JSON         | getCurrentDay() |
 
 
 ### Weekly schedule
 
-| HTTP Methods |          Routes        | Content-Type |
-|--------------|------------------------|:------------:|
-| GET          | /week/:class/:name/:WW | JSON         |
-| GET          | /week/:class/:name/    | JSON         |
+| HTTP | Routes                 | Content-Type | Methods          |
+|------|------------------------|:------------:|:----------------:|
+| GET  | /week/:class/:name/:WW | JSON         | getWeek()        |
+| GET  | /week/:class/:name/    | JSON         | getCurrentWeek() |
+
+
+## Methods
+
+### getList
