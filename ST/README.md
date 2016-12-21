@@ -2,6 +2,13 @@
 
 ## Routes
 
+### List all class and groups
+
+| HTTP Methods |  Routes  | Content-Type |
+|--------------|----------|:------------:|
+| GET          | /list    | JSON         |
+| GET          | /details | JSON         |
+
 ### Daily schedule
 
 | HTTP Methods |              Routes             | Content-Type |
